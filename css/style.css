@@ -55,8 +55,8 @@ a { text-decoration: none; }
 	color: #7e8bae;
 	background-color: #fff;
 }
-.btn-analythics{ padding: 21px 39px; }
-.btn-analythics2 { padding: 21px 61px; }
+.btn-analythics{ padding: 21px 39px; margin: 19px 0; }
+.btn-analythics2 { padding: 21px 61px; margin-top: 18px; }
 .btn-plan {
 	color: #8085b1;
 	background-color: #f5faff;
@@ -138,6 +138,21 @@ h1 {
 	letter-spacing: 2.9px;
 	text-align: center;
 	margin-bottom: -7.5px;
+}
+.page-app-content h2 {
+	line-height: 60px;
+	letter-spacing: -1.4px;
+	margin-bottom: 37px;
+}
+.page-analythics h2 {
+	line-height: 57px;
+    letter-spacing: -1.4px;
+    margin: 11px auto 31px;
+}
+.page-analythics2 h2 {
+	line-height: 57px;
+    letter-spacing: -1.4px;
+    margin: 13px 0 30px;
 }
 .page-screen h2 {
 	text-align: center;
@@ -397,10 +412,11 @@ h1 {
 	margin-top: 42px;
 }
 .icon {
+	right: 25px;
+    position: relative;
 	display: block;
 	background-image: url(../img/1.bg/Features-Icon.png);
 	background-repeat: no-repeat;
-	background-position: -26px;
 	width: 115px;
 	height: 97px;
 }
@@ -446,6 +462,80 @@ h1 {
     font-size: 60px;
     letter-spacing: -1px;
     margin-bottom: 24px;
+}
+/*БЛОК7*/
+.page-app {
+	position: relative;
+	padding: 65px 0 100px	;
+}
+.page-app-content {
+	width: 55%;
+}
+.page-app-content p {
+    margin: 24px 0 0px 5px;
+}
+.page-app-text {
+	color: #c4d2dd;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3.3px;
+}
+.page-app-list {
+	padding: 0;
+	margin: 3px 0 0 -6px;
+	list-style-type: none;
+}
+.page-app-list>li {
+	display: inline-block;
+}
+.page-app-list>li>a {
+	background-image: url(../img/6.video/buttons.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 185px;
+    height: 91px;
+}
+.page-app-list>li>a.button-android {
+	background-position: 0 0;
+}
+.page-app-list>li>a.button-apple {
+	background-position: -188px 0;
+}
+.page-app-link {
+	position: absolute;
+    top: 45px;
+    right: 227px;
+}
+/*БЛОК8*/
+.page-analythics{
+	background-image: url(../img/1.bg/bg4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.flex-analythics {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 117px 0 100px;
+}
+.flex-analythics>div {
+	flex-basis: 54%;
+}
+/*БЛОК9*/
+.page-analythics2 {
+	background-image: url(../img/1.bg/bg5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 122px 0px 120px 71px;
+}
+.flex-analythics2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-analythics2>div {
+	flex-basis: 55%;
 }
 /*БЛОК10*/
 .page-screen {
