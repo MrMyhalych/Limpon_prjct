@@ -167,6 +167,13 @@ h1 {
 	color: #fff;
 }
 .page-clients h2 span, .page-team h2 span { color: #85c8ff; }
+.page-clients h2 {
+	letter-spacing: -1.1px;
+}
+.page-clients h2 span {
+	letter-spacing: 3.7px;
+	margin-bottom: 27px;
+}
 .page-plan h2 span {
 	color: #1085e4;
 	letter-spacing: 3.5px;
@@ -213,6 +220,7 @@ h1 {
 .page-header {
 	background-image: url("../img/1.bg/bg1.png");
 	background-repeat: no-repeat;
+	background-position: center;
 	padding-bottom: 329px;
 	position: relative;
 }
@@ -243,6 +251,7 @@ h1 {
 .page-company {
 	background-image: url(../img/1.bg/bg2.png);
 	background-repeat: no-repeat;
+	background-position: center;
 
 }
 .list-company {
@@ -407,6 +416,8 @@ h1 {
 .screenshot6 {
 	position: absolute;
 	background-image: url(../img/4.features/Screenshot-6.png);
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 910px;
 	height: 961px;
 	margin-top: 42px;
@@ -511,6 +522,7 @@ h1 {
 .page-analythics{
 	background-image: url(../img/1.bg/bg4.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 }
 .flex-analythics {
@@ -526,6 +538,7 @@ h1 {
 .page-analythics2 {
 	background-image: url(../img/1.bg/bg5.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 	padding: 122px 0px 120px 71px;
 }
@@ -543,6 +556,58 @@ h1 {
 	text-align: center;
 	line-height: 0;
 	padding-top: 90px;
+}
+/*БЛОК11*/
+.page-clients {
+	background-image: url(../img/1.bg/bg6.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+    padding: 40px 0;
+    margin: 120px 0 112px;
+}
+.box-clients {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+.box-clients-item {
+	background-color: #fff;
+	padding: 19px 26px 28px;
+    border-radius: 9px;
+    flex-basis: 32%;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #f4f4f4;
+}
+.box-clients-item p {
+	font-size: 14px;
+    padding: 0px 17px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+.box-clients-flex {
+	display: flex;
+	margin-left: 15px;
+}
+.box-clients-photo {
+	background-image: url(../img/8.clients/Avat1.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	flex-basis: 19%;
+}
+.box-clients-item .name {
+	font-size: 22px;
+	color: #000958;
+	font-weight: 600;
+	letter-spacing: -0.7px;
+	margin: 0;
+}
+.box-clients-item .position {
+	color: #1085e4;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.7px;
+	margin: 0 0 15px 0;
 }
 /*BLOCK12*/
 .page-plan { text-align: center; }
